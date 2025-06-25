@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cosmic Clock Pro</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="starfield"></canvas>
+  <div class="container">
+    <div class="clock" aria-live="polite" aria-atomic="true">
+      <h1 id="time">--:--:--</h1>
+      <p id="date">--/--/----</p>
+      <p id="weather">Chargement météo...</p>
+    </div>
+    <div class="extras">
+      <p id="quote">"Chargement de la citation..."</p>
+      <button id="new-quote" aria-label="Nouvelle citation">🔄 Nouvelle citation</button>
+      <button id="theme-toggle" aria-label="Changer le thème">🌙</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
